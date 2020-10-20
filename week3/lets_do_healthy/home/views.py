@@ -4,7 +4,8 @@ from django.template import loader
 
 
 def index(request):
-    return HttpResponse("This is a home.")
+    template = loader.get_template('home/index.html')
+    return HttpResponse(template.render())
 
 
 def welcome(request):

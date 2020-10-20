@@ -1,10 +1,18 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <title>건강하자</title>
-</head>
-<body>
 
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block title %}건강하자와 함께해요{% endblock %}
+
+{% block content %}
+    <section class="section-food">
+        food section
+    </section><!--영양성분-->
+
+    <section class="section-account">
+        account section
+    </section><!--회원정보-->
+
+    <section class="section-news">
+        news section
+    </section><!--뉴스정보-->
+{% endblock %}
