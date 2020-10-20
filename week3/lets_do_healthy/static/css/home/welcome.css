@@ -43,14 +43,23 @@ a {
 
 /*.section-welcome*/
 .section-welcome nav {
-    justify-content: end;
+    display: flex;
+    align-items: flex-end;
+}
+
+.section-welcome nav ul {
+    margin-right: 5rem;
 }
 
 .section-welcome nav ul li {
     margin-top: 1.2rem;
 }
 
-.section-welcome nav ul li:first-child{
+.section-welcome nav ul {
+    margin-top: 0;
+}
+
+.section-welcome nav ul li:first-child {
     margin-top: 0;
 }
 
