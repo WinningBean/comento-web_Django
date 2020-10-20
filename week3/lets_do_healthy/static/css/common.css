@@ -9,6 +9,19 @@
     padding: 0;
 }
 
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+    color: #333;
+    background: #fff;
+}
+
 ul, li {
     list-style: none;
 }
@@ -19,13 +32,6 @@ a {
     color: #333;
 }
 
-body {
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size: 1em;
-    color: #333;
-    background: #fff;
-}
-
 img {
     border: 0;
 }
@@ -33,7 +39,7 @@ img {
 /*공통*/
 input, select {
     border: 1px solid #ccc;
-    font-size: 1em;
+    font-size: 1.6rem;
     height: 25px;
     vertical-align: middle;
 }

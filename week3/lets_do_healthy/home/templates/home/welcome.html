@@ -1,22 +1,24 @@
 {% load static %}
 <!DOCTYPE html>
-<html lang="ko" style="height: 100%">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <title>건강하자에 오신 걸 환영합니다!</title>
     <link rel="stylesheet" href="{% static 'css/common.css' %}"><!--  공통 css -->
+    <link rel="stylesheet" href="{% static 'css/home/welcome.css' %}">
 </head>
-<body style="height: 100%; background: url({% static 'img/home/welcome_background.jpg' %}) no-repeat; background-size: cover">
-<section
-        style="height: 100%; text-align: center; display: flex; justify-content: center; align-items: center; flex-direction: column">
-    <h1 style="margin-bottom: 10px">건강하자</h1>
-    <nav>
-        <ul>
-            <li><a href="#">자연식품</a></li>
-            <li><a href="#">건강기능식품</a></li>
-            <li><a href="#">가공식품</a></li>
-        </ul><!-- food nav -->
-    </nav>
+<body>
+<section class="main">
+    <article>
+        <h1><a href="#">건강하자</a></h1>
+        <nav>
+            <ul>
+                <li><a href="#">자연식품</a></li>
+                <li><a href="#">건강기능식품</a></li>
+                <li><a href="#">가공식품</a></li>
+            </ul>
+        </nav><!-- food nav -->
+    </article>
 </section>
 </body>
 </html>
