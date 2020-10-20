@@ -1,0 +1,87 @@
+/*** 공통 css 입니다 ***/
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+/*초기화*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    outline: 0;
+    text-decoration: none;
+    color: #333;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1em;
+    color: #333;
+    background: #fff;
+}
+
+img {
+    border: 0;
+}
+
+/*공통*/
+input, select {
+    border: 1px solid #ccc;
+    font-size: 1em;
+    height: 25px;
+    vertical-align: middle;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-size: 0;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border-top: 2px solid #7d7d7d;
+    border-bottom: 1px solid #7d7d7d;
+}
+
+table thead tr th {
+    border-bottom: 1px solid #ccc;
+    padding: 3px 0;
+    background: #eaeaea;
+    font-weight: normal;
+}
+
+/*레이아웃*/
+.clearfix {
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+
+/* float 오류 방지 클래스 */
+.wrapper {
+    width: 95%;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* 래퍼 클래스 */
+.contain {
+    display: block;
+    background: #fff;
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
